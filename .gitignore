@@ -1,2 +1,6 @@
-# The below types of files or directory will be ignored the tracking :
+# git ignored list.
+# The below types of files, or directories will be ignored the tracking :
+
 *.obj
+*.o
+*.xcuserstate
