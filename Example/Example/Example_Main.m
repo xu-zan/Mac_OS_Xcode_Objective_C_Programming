@@ -55,7 +55,7 @@
             [aVariable2 release];   // 释放内存
         #endif
     }
-#else
+#elif 0
     #import <math.h>
     /*-----------------------------------------------------------------------------------
      * 測試Objective-C programming language的標量數據類型及其占用內存的大小
@@ -116,11 +116,22 @@
         
         return 0;
     }
+#else
+    #import <Foundation/Foundation.h>
+
+    int main(int argc, char *argv[])
+    {
+        NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+        
+        NSString *foo = [NSString stringWithString:@"Foobar"];
+        
+        NSLog(@"foo = %@", foo);
+        
+        [pool drain];
+        return 0;
+    }
 #endif
 
-
-
-
-
-
-
+/*
+ * END OF FILE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ */
