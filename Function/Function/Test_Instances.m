@@ -13,10 +13,10 @@
 
 void Test_Instances(void)
 {
-    long int iResult = 0;
-    iResult = calculateFactorial(20);
+    long int lResult = 0;
+    lResult = calculateFactorial(20);
     
-    NSLog(@"Factorial(20) = %ld\n", iResult);
+    NSLog(@"Factorial(20) = %ld\n", lResult);
     
     
 /****************************/
