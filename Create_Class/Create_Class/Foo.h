@@ -7,26 +7,32 @@
  *
  *********************************************************************************************/
 
-#import <Foundation/Foundation.h>
+#ifndef FOO_H
+#define FOO_H
 
-@interface Foo : NSObject
-{
-    NSString *someVariable;
-    NSString *someOtherVariable;
-    NSArray  *someArray;
-}
-@property (nonatomic, retain) NSString *someVariable;
-@property (nonatomic, retain) NSString *someOtherVariable;
+    #import <Foundation/Foundation.h>
 
-// 對象方法
--(id)init;
--(id)initWithArrary:(NSMutableArray *)inArray;
--(void)dealloc;
+    @interface Foo : NSObject
+    {
+        NSString *someVariable;
+        NSString *someOtherVariable;
+        NSArray  *someArray;
+    }
+    @property (nonatomic, retain) NSString *someVariable;
+    @property (nonatomic, retain) NSString *someOtherVariable;
 
--(void)someMethod;
--(BOOL)someOtherMethodWithArg:(NSString *)param1 andAnotherArg:(int)param2;
+    // 對象方法
+    -(id)init;
+    -(id)initWithArrary:(NSMutableArray *)inArray;
+    -(void)dealloc;
 
-// 類方法
-+(id)fooWithArray:(NSMutableArray *)inArray;
+    -(void)someMethod;
+    -(BOOL)someOtherMethodWithArg:(NSString *)param1 andAnotherArg:(int)param2;
 
-@end
+    // 類方法
+    +(id)fooWithArray:(NSMutableArray *)inArray;
+
+    @end
+
+
+#endif  /*  FOO_H  */

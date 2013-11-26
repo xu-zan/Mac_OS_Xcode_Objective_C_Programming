@@ -33,6 +33,7 @@
 		210CB1B71813E16D007F1224 /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
 		210CB1B818140609007F1224 /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
 		21AF47851818242200B96093 /* Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Testing.m; sourceTree = "<group>"; };
+		21AF47871818259400B96093 /* Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Testing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 				210CB1B71813E16D007F1224 /* Foo.h */,
 				210CB1B818140609007F1224 /* Foo.m */,
 				21AF47851818242200B96093 /* Testing.m */,
+				21AF47871818259400B96093 /* Testing.h */,
 			);
 			path = Create_Class;
 			sourceTree = "<group>";

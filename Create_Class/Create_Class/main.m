@@ -11,6 +11,7 @@
  *******************************************************************************************************/
 
 #import <Foundation/Foundation.h>
+#import "Testing.h"
 
 int main(int argc, const char * argv[])
 {
@@ -19,6 +20,8 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         NSLog(@"Hello, World!");
+        
+        Testing_class_object_method();
         
     }
     return 0;

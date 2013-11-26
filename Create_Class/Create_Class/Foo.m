@@ -67,7 +67,8 @@
 
 +(id)fooWithArray:(NSMutableArray *)inArray
 {
-    return [[[self alloc] initWithArray:inArray] autorelease];
+    // return [[[self alloc] initWithArray:inArray] autorelease];
+    return 0;
 }
 
 @end
