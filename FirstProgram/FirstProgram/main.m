@@ -1,12 +1,22 @@
-//
-//  main.m
-//  FirstProgram
-//
-//  Created by 徐 贊 on 13-11-9.
-//  Copyright (c) 2013年 徐 贊. All rights reserved.
-//
+/****************************************************************************************************************
+ * Project      : FirstProgram.xcodeproj
+ * Description  : This is my first Xcode project on Mac OS X platform, try to learn the Objective-C programming
+ *                language and code it.
+ * ==============================================================================================================
+ * File name    : main.m
+ * Description  : This file implements the main() entry function of current project.
+ * Creator      : XU ZAN
+ * Creation date: Wed.  Dec. 18, 2013
+ * Copyright(C)     2013    All rights reserved.
+ *
+ ****************************************************************************************************************/
+
 
 #import <Foundation/Foundation.h>
+
+#import "IdTest.h"
+#import "Member.h"
+
 
 int main(int argc, const char * argv[])
 {
@@ -23,6 +33,37 @@ int main(int argc, const char * argv[])
                                      * 其作用是打印後面字符串的內容到控制台上，類似於C語言中的printf
                                      * @"Hello, World!"是一個字符串，與C或Java不同，Objective-C字符串需要在""之前使用@
                                      */
+        
+#if 0
+        Member *member = [[Member alloc] init];
+        /************************************************************************************************
+         
+         在Objective-C中, 方法調用的語法格式 :
+         
+         變量 ＝ [實例 方法];
+         
+         或者
+         
+         實例 = [類 方法];
+         
+         完整的方法調用格式爲：
+         
+         [實例 方法名1:參數1 方法名2:參數2, 方法名3:參數3]
+         
+         ************************************************************************************************/
+        [member setName:@"Sam"];
+        [member setAge:36];
+        
+        NSLog(@"%@", [member name]);    // "%@" 表示字符串, "%i" 表示整數
+        NSLog(@"%i", [member age]);
+        
+        int n = 0;
+        NSLog(@"Please enter the integer number : \ni = ");
+        scanf("%i", &n);
+        NSLog(@"n = %i", n);
+#endif
+        
+        IdTest();
     }
     /*
      [pool drain];

@@ -9,26 +9,38 @@
 
 #import "Member.h"
 
+/************************************************************************************************
+ 
+ 在Objective-C中，類的實現(implementation)的语法格式：
+ 
+ @implementation 類名
+ 
+    方法實現代碼;
+ 
+ @end
+ 
+ ************************************************************************************************/
+
 @implementation Member
+
+@synthesize age;
+@synthesize name;
 
 -(NSString *) name
 {
     return name;
 }
 
--(int) age
+
+-(void) print
 {
-    return age;
+    NSLog(@"My name is : %@, my age is : %i", name, age);
 }
 
--(void) setName:(NSString *) input
+-(void) setName : (NSString*) name1 andAge : (int) age1
 {
-    name = input;
-}
-
--(void) setAge:(int) input
-{
-    age = input;
+    self.age = age1;
+    self.name = name1;
 }
 
 @end

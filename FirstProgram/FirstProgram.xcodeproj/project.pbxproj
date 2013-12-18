@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		218F0524182E71D200A27F52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218F0523182E71D200A27F52 /* Foundation.framework */; };
 		218F0527182E71D200A27F52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 218F0526182E71D200A27F52 /* main.m */; };
+		21B811FE1861DB63007A3596 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B811FD1861DB63007A3596 /* Student.m */; };
+		21B812051861E6F3007A3596 /* IdTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B812041861E6F3007A3596 /* IdTest.m */; };
 		21D4989A1832903B001118F8 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D498991832903B001118F8 /* Member.m */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,10 @@
 		218F0523182E71D200A27F52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		218F0526182E71D200A27F52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		218F0529182E71D200A27F52 /* FirstProgram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstProgram-Prefix.pch"; sourceTree = "<group>"; };
+		21B811FC1861D939007A3596 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		21B811FD1861DB63007A3596 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		21B812011861E5C3007A3596 /* IdTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdTest.h; sourceTree = "<group>"; };
+		21B812041861E6F3007A3596 /* IdTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdTest.m; sourceTree = "<group>"; };
 		21D498981832902E001118F8 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
 		21D498991832903B001118F8 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +83,10 @@
 				218F0528182E71D200A27F52 /* Supporting Files */,
 				21D498981832902E001118F8 /* Member.h */,
 				21D498991832903B001118F8 /* Member.m */,
+				21B811FC1861D939007A3596 /* Student.h */,
+				21B811FD1861DB63007A3596 /* Student.m */,
+				21B812011861E5C3007A3596 /* IdTest.h */,
+				21B812041861E6F3007A3596 /* IdTest.m */,
 			);
 			path = FirstProgram;
 			sourceTree = "<group>";
@@ -140,8 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B812051861E6F3007A3596 /* IdTest.m in Sources */,
 				218F0527182E71D200A27F52 /* main.m in Sources */,
 				21D4989A1832903B001118F8 /* Member.m in Sources */,
+				21B811FE1861DB63007A3596 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

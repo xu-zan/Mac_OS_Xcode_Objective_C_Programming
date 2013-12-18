@@ -9,15 +9,38 @@
 
 #import <Foundation/Foundation.h>
 
+/************************************************************************************************
+ 
+ 在Objective-C中，定义一个类的接口(interface)的语法格式：
+ 
+ @interface 类名:父类名
+ {
+    变量定义;
+ }
+ 
+ 方法定义；
+ -(返回类型) 方法名称:(参数类型) 参数名称;
+ 
+ -    实例方法
+ +    类方法
+ 
+ @end
+ 
+ ************************************************************************************************/
+
+
 @interface Member : NSObject
 {
     NSString *name;
     int age;
 }
 
+@property int age;
+@property (nonatomic, retain) NSString *name;
+
 -(NSString *) name;
--(int) age;
--(void) setName:(NSString *) input;
--(void) setAge:(int) input;
+
+-(void) print;
+-(void) setName : (NSString*) name1 andAge : (int) age1;
 
 @end
