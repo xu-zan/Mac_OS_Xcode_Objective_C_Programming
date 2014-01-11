@@ -27,3 +27,27 @@ void IdTest(void)
 /****************************************/
     return;
 }
+
+void Prime(void)
+/* 生成2 到 50 之間的所有素數
+ */
+{
+    int p= 0, d = 0;
+    BOOL isPrime;
+    
+    for (p=2; p<= 50; p++)
+    {
+        isPrime = YES;
+        for (d=2; d<p; d++)
+        {
+            if (p % d == 0)
+            {
+                isPrime = NO;
+            }
+        }
+        if (isPrime == YES)
+        {
+            NSLog(@"%i ", p);
+        }
+    }
+}

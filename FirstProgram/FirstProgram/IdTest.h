@@ -12,4 +12,6 @@
 
 void IdTest(void);
 
+void Prime(void);
+
 #endif  /*  IDTEST_H  */
