@@ -18,4 +18,6 @@
 
     void Test_Class_StaticVariable(void);
 
+    void Test_Print_Auto_Const_Volatile_Variable_Types(void);
+
 #endif  /*  CLASS_TEST_H  */
