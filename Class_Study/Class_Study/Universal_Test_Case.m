@@ -11,8 +11,11 @@
 #import "Universal_Test_Case.h"
 
 #import "ClassTest.h"
+#import "Test_Property_Setter_Getter.h"
 
 void Execute_Universal_Test_Case(void)
 {
-        General_Test_Case();
+    General_Test_Case();
+    
+    Test_PropertySetterGetter_Case();
 }
