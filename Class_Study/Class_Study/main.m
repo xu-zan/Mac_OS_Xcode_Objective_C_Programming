@@ -14,16 +14,12 @@
 
 #import <Foundation/Foundation.h>
 #import <stdio.h>
-#import "ClassTest.h"
+#import "Universal_Test_Case.h"
 
 int main(int argc, const char * argv[])
 {
-
-    @autoreleasepool
-    {
-        General_Test_Case();        
-    }
+    Execute_Universal_Test_Case();
+    
     // getchar();
     return 0;
 }
-
