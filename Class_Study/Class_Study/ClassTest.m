@@ -22,18 +22,25 @@ void General_Test_Case(void)
 
 void Test_Class(void)
 {
-    Test *pTestObj = [[Test alloc] init];
+    @autoreleasepool
+    {
     
-    [pTestObj SetCoordinateX:1];
-    [pTestObj SetCoordinateY:5];
+        Test *pTestObj = [[Test alloc] init];
+        
+        [pTestObj SetCoordinateX:1];
+        [pTestObj SetCoordinateY:5];
     
-    [pTestObj print];
+        [pTestObj print];
+    }
 }
 
 void Test_Class_InitializationMethod(void)
 {
-    Test2 *pTest2Obj = [[Test2 alloc]initWith:21];
-    [pTest2Obj print];
+    @autoreleasepool
+    {
+        Test2 *pTest2Obj = [[Test2 alloc]initWith:21];
+        [pTest2Obj print];
+    }
 }
 
 /**************************************************************************************
@@ -59,8 +66,11 @@ void Test_Class_StaticVariable(void)
 
 void Test_Print_Auto_Const_Volatile_Variable_Types(void)
 {
-    Test *pTestObj = [[Test alloc] init];
-    [pTestObj Print_Auto_Const_Volatile_Variable_Types];
+    @autoreleasepool
+    {
+        Test *pTestObj = [[Test alloc] init];
+        [pTestObj Print_Auto_Const_Volatile_Variable_Types];
+    }
 }
 
 /*
