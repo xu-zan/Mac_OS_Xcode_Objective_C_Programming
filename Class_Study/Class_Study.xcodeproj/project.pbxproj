@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		217103F5188C306C0039FAB6 /* Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 217103F4188C306C0039FAB6 /* Test2.m */; };
+		21813C2F18A25EE20043B207 /* Multi_Arguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 21813C2E18A25EE20043B207 /* Multi_Arguments.m */; };
+		21813C3218A261230043B207 /* Test_Multi_Arguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 21813C3118A261230043B207 /* Test_Multi_Arguments.m */; };
+		21813C3518A262150043B207 /* Universal_Test_Case.m in Sources */ = {isa = PBXBuildFile; fileRef = 21813C3418A262150043B207 /* Universal_Test_Case.m */; };
 		2196255D1881C4D7001D7642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2196255C1881C4D7001D7642 /* Foundation.framework */; };
 		219625601881C4D7001D7642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2196255F1881C4D7001D7642 /* main.m */; };
 		2196256C1881C6C3001D7642 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2196256B1881C6C3001D7642 /* Test.m */; };
@@ -29,6 +32,12 @@
 /* Begin PBXFileReference section */
 		217103F3188C306C0039FAB6 /* Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2.h; sourceTree = "<group>"; };
 		217103F4188C306C0039FAB6 /* Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2.m; sourceTree = "<group>"; };
+		21813C2D18A25E1C0043B207 /* Multi_Arguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Multi_Arguments.h; sourceTree = "<group>"; };
+		21813C2E18A25EE20043B207 /* Multi_Arguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Multi_Arguments.m; sourceTree = "<group>"; };
+		21813C3018A25FF10043B207 /* Test_Multi_Arguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test_Multi_Arguments.h; sourceTree = "<group>"; };
+		21813C3118A261230043B207 /* Test_Multi_Arguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test_Multi_Arguments.m; sourceTree = "<group>"; };
+		21813C3318A261F90043B207 /* Universal_Test_Case.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Universal_Test_Case.h; sourceTree = "<group>"; };
+		21813C3418A262150043B207 /* Universal_Test_Case.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Universal_Test_Case.m; sourceTree = "<group>"; };
 		219625591881C4D7001D7642 /* Class_Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Class_Study; sourceTree = BUILT_PRODUCTS_DIR; };
 		2196255C1881C4D7001D7642 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2196255F1881C4D7001D7642 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -80,6 +89,10 @@
 			isa = PBXGroup;
 			children = (
 				2196255F1881C4D7001D7642 /* main.m */,
+				21813C2D18A25E1C0043B207 /* Multi_Arguments.h */,
+				21813C2E18A25EE20043B207 /* Multi_Arguments.m */,
+				21813C3018A25FF10043B207 /* Test_Multi_Arguments.h */,
+				21813C3118A261230043B207 /* Test_Multi_Arguments.m */,
 				2196256A1881C6C3001D7642 /* Test.h */,
 				2196256B1881C6C3001D7642 /* Test.m */,
 				2196256D1881C84E001D7642 /* ClassTest.h */,
@@ -87,6 +100,8 @@
 				219625611881C4D7001D7642 /* Supporting Files */,
 				217103F3188C306C0039FAB6 /* Test2.h */,
 				217103F4188C306C0039FAB6 /* Test2.m */,
+				21813C3318A261F90043B207 /* Universal_Test_Case.h */,
+				21813C3418A262150043B207 /* Universal_Test_Case.m */,
 			);
 			path = Class_Study;
 			sourceTree = "<group>";
@@ -150,10 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21813C3218A261230043B207 /* Test_Multi_Arguments.m in Sources */,
 				217103F5188C306C0039FAB6 /* Test2.m in Sources */,
 				2196256F1881C872001D7642 /* ClassTest.m in Sources */,
+				21813C3518A262150043B207 /* Universal_Test_Case.m in Sources */,
 				219625601881C4D7001D7642 /* main.m in Sources */,
 				2196256C1881C6C3001D7642 /* Test.m in Sources */,
+				21813C2F18A25EE20043B207 /* Multi_Arguments.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
