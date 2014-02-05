@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211958AF18A2738100F54F59 /* Property_Setter_Getter.m in Sources */ = {isa = PBXBuildFile; fileRef = 211958AC18A2738100F54F59 /* Property_Setter_Getter.m */; };
+		211958B018A2738100F54F59 /* Test_Property_Setter_Getter.m in Sources */ = {isa = PBXBuildFile; fileRef = 211958AE18A2738100F54F59 /* Test_Property_Setter_Getter.m */; };
 		217103F5188C306C0039FAB6 /* Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 217103F4188C306C0039FAB6 /* Test2.m */; };
 		2196255D1881C4D7001D7642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2196255C1881C4D7001D7642 /* Foundation.framework */; };
 		219625601881C4D7001D7642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2196255F1881C4D7001D7642 /* main.m */; };
@@ -27,6 +29,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		211958AB18A2738100F54F59 /* Property_Setter_Getter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property_Setter_Getter.h; sourceTree = "<group>"; };
+		211958AC18A2738100F54F59 /* Property_Setter_Getter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Property_Setter_Getter.m; sourceTree = "<group>"; };
+		211958AD18A2738100F54F59 /* Test_Property_Setter_Getter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test_Property_Setter_Getter.h; sourceTree = "<group>"; };
+		211958AE18A2738100F54F59 /* Test_Property_Setter_Getter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test_Property_Setter_Getter.m; sourceTree = "<group>"; };
 		217103F3188C306C0039FAB6 /* Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2.h; sourceTree = "<group>"; };
 		217103F4188C306C0039FAB6 /* Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2.m; sourceTree = "<group>"; };
 		219625591881C4D7001D7642 /* Class_Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Class_Study; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		211958AA18A2731E00F54F59 /* Property_Setter_Getter */ = {
+			isa = PBXGroup;
+			children = (
+				211958AB18A2738100F54F59 /* Property_Setter_Getter.h */,
+				211958AC18A2738100F54F59 /* Property_Setter_Getter.m */,
+				211958AD18A2738100F54F59 /* Test_Property_Setter_Getter.h */,
+				211958AE18A2738100F54F59 /* Test_Property_Setter_Getter.m */,
+			);
+			name = Property_Setter_Getter;
+			sourceTree = "<group>";
+		};
 		219625501881C4D7001D7642 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +96,7 @@
 		2196255E1881C4D7001D7642 /* Class_Study */ = {
 			isa = PBXGroup;
 			children = (
+				211958AA18A2731E00F54F59 /* Property_Setter_Getter */,
 				2196255F1881C4D7001D7642 /* main.m */,
 				2196256A1881C6C3001D7642 /* Test.h */,
 				2196256B1881C6C3001D7642 /* Test.m */,
@@ -152,7 +170,9 @@
 			files = (
 				217103F5188C306C0039FAB6 /* Test2.m in Sources */,
 				2196256F1881C872001D7642 /* ClassTest.m in Sources */,
+				211958B018A2738100F54F59 /* Test_Property_Setter_Getter.m in Sources */,
 				219625601881C4D7001D7642 /* main.m in Sources */,
+				211958AF18A2738100F54F59 /* Property_Setter_Getter.m in Sources */,
 				2196256C1881C6C3001D7642 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
