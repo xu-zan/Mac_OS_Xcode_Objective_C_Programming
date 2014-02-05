@@ -17,6 +17,7 @@ void General_Test_Case(void)
     Test_Class();
     Test_Class_InitializationMethod();
     Test_Class_StaticVariable();
+    Test_Print_Auto_Const_Volatile_Variable_Types();
 }
 
 void Test_Class(void)
@@ -56,6 +57,11 @@ void Test_Class_StaticVariable(void)
     NSLog(@"Once again, current static variable Y = %i", [Test StaticIntY]);
 }
 
+void Test_Print_Auto_Const_Volatile_Variable_Types(void)
+{
+    Test *pTestObj = [[Test alloc] init];
+    [pTestObj Print_Auto_Const_Volatile_Variable_Types];
+}
 
 /*
  * END OF FILE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

@@ -13,6 +13,7 @@
 
 
 #import <Foundation/Foundation.h>
+#import <stdio.h>
 #import "ClassTest.h"
 
 int main(int argc, const char * argv[])
@@ -22,6 +23,7 @@ int main(int argc, const char * argv[])
     {
         General_Test_Case();        
     }
+    // getchar();
     return 0;
 }
 
