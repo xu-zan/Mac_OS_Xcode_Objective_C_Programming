@@ -36,5 +36,7 @@ void TestAndVerify_StringObject(void)
 
 void TestAndVerify_ArrayOfObject(void)
 {
-	Perform_Test_Case_For_Array_Object();
+	// Perform_Test_Case_For_Array_Object();
+	
+	Test_Array_Objects_Sorting();
 }

@@ -12,4 +12,8 @@
 
 	void TestCase_ArrayTypeOfObjects(void);
 
+	void TestCase_MutableArrayTypeOfObjects(void);
+
+	void Calculate_Print_Multiplier(void);
+
 #endif	/*  ARRAY_OBJECT_H  */
