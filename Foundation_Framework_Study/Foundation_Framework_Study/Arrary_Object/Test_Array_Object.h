@@ -13,4 +13,6 @@
 
 	void Perform_Test_Case_For_Array_Object(void);
 
+	void Test_Array_Objects_Sorting(void);
+
 #endif	/*  TEST_ARRAY_OBJECT_H  */
