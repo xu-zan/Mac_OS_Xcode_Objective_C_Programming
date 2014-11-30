@@ -14,6 +14,7 @@
 	void General_Test_Case(void);
 
 	void TestAndVerify_NumberObject(void);
+	void TestAndVerify_StringObject(void);
 
 
 #endif	/*  TEST_H  */

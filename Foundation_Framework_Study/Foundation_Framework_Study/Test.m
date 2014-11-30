@@ -10,10 +10,13 @@
 
 #import "Test.h"
 #import "Number_Object/Test_Number_Object.h"
+#import "String_Object/String_Object.h"
 
 void General_Test_Case(void)
 {
 	TestAndVerify_NumberObject();
+	
+	TestAndVerify_StringObject();
 }
 
 
@@ -21,4 +24,9 @@ void General_Test_Case(void)
 void TestAndVerify_NumberObject(void)
 {
 	TestCase_NumberTypeOfObject();
+}
+
+void TestAndVerify_StringObject(void)
+{
+	TestCase_StringTypeOfObject();
 }
