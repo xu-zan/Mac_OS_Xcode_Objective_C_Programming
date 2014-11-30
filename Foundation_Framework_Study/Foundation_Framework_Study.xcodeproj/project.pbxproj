@@ -14,6 +14,7 @@
 		7F45B6431A2B657E006A6D82 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F45B6421A2B657E006A6D82 /* Student.m */; };
 		7F45B6471A2B6940006A6D82 /* Array_Objects_Sorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F45B6461A2B6940006A6D82 /* Array_Objects_Sorting.m */; };
 		7F45B64C1A2B8621006A6D82 /* Dictionary_Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F45B64B1A2B8621006A6D82 /* Dictionary_Object.m */; };
+		7F45B64E1A2B8B68006A6D82 /* Test_Dictionary_Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F45B64D1A2B8B68006A6D82 /* Test_Dictionary_Object.m */; };
 		7FD652061A093CE900408D95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD652051A093CE900408D95 /* main.m */; };
 		7FD6520F1A093F1C00408D95 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD6520E1A093F1C00408D95 /* Test.m */; };
 		7FD652111A09409C00408D95 /* Number_Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD652101A09409C00408D95 /* Number_Object.m */; };
@@ -47,6 +48,8 @@
 		7F45B6481A2B6964006A6D82 /* Array_Objects_Sorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Array_Objects_Sorting.h; path = Arrary_Object/Array_Objects_Sorting/Array_Objects_Sorting.h; sourceTree = "<group>"; };
 		7F45B64A1A2B8603006A6D82 /* Dictionary_Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Dictionary_Object.h; path = Dictionary_Object/Dictionary_Object.h; sourceTree = "<group>"; };
 		7F45B64B1A2B8621006A6D82 /* Dictionary_Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dictionary_Object.m; path = Dictionary_Object/Dictionary_Object.m; sourceTree = "<group>"; };
+		7F45B64D1A2B8B68006A6D82 /* Test_Dictionary_Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test_Dictionary_Object.m; path = Dictionary_Object/Test_Dictionary_Object.m; sourceTree = "<group>"; };
+		7F45B64F1A2B8B92006A6D82 /* Test_Dictionary_Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Test_Dictionary_Object.h; path = Dictionary_Object/Test_Dictionary_Object.h; sourceTree = "<group>"; };
 		7FD652021A093CE900408D95 /* Foundation_Framework_Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Foundation_Framework_Study; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD652051A093CE900408D95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7FD6520D1A093EE500408D95 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 			children = (
 				7F45B64A1A2B8603006A6D82 /* Dictionary_Object.h */,
 				7F45B64B1A2B8621006A6D82 /* Dictionary_Object.m */,
+				7F45B64D1A2B8B68006A6D82 /* Test_Dictionary_Object.m */,
+				7F45B64F1A2B8B92006A6D82 /* Test_Dictionary_Object.h */,
 			);
 			name = Dictionary_Object;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 				7FD6520F1A093F1C00408D95 /* Test.m in Sources */,
 				7F3287A21A0E8F38004C5929 /* String_Object.m in Sources */,
 				7F45B63D1A2B4B4B006A6D82 /* Array_Object.m in Sources */,
+				7F45B64E1A2B8B68006A6D82 /* Test_Dictionary_Object.m in Sources */,
 				7F45B6431A2B657E006A6D82 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

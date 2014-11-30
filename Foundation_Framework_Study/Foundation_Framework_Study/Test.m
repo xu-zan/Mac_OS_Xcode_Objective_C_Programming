@@ -12,6 +12,7 @@
 #import "Number_Object/Test_Number_Object.h"
 #import "String_Object/String_Object.h"
 #import "Arrary_Object/Test_Array_Object.h"
+#import "Dictionary_Object/Test_Dictionary_Object.h"
 
 void General_Test_Case(void)
 {
@@ -20,6 +21,8 @@ void General_Test_Case(void)
 	TestAndVerify_StringObject();
 	
 	TestAndVerify_ArrayOfObject();
+	
+	TestAndVerify_DictionaryOfObject();
 }
 
 
@@ -39,4 +42,10 @@ void TestAndVerify_ArrayOfObject(void)
 	// Perform_Test_Case_For_Array_Object();
 	
 	Test_Array_Objects_Sorting();
+}
+
+
+void TestAndVerify_DictionaryOfObject(void)
+{
+	TestCase_Dictionary_Object();
 }

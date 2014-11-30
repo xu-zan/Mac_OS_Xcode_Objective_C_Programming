@@ -11,5 +11,6 @@
 #ifndef DICTIONARY_OBJECT_H
 #define DICTIONARY_OBJECT_H
 
+	void Create_Use_Dictionary_Objects(void);
 
 #endif	/*  DICTIONARY_OBJECT_H  */

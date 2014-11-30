@@ -16,6 +16,7 @@
 	void TestAndVerify_NumberObject(void);
 	void TestAndVerify_StringObject(void);
 	void TestAndVerify_ArrayOfObject(void);
+	void TestAndVerify_DictionaryOfObject(void);
 
 
 #endif	/*  TEST_H  */
