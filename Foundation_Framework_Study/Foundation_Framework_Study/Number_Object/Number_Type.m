@@ -18,7 +18,7 @@ void Number_Type_Example(void)
 	
 	// 创建 integer 类型对象
 	piNumber = [NSNumber numberWithInteger:245];
-	NSLog(@"Current integer number is %i", [piNumber integerValue]);
+	NSLog(@"Current integer number is %li", (long)[piNumber integerValue]);
 	
 	// 创建 long 类型对象
 	pMyNumber = [NSNumber numberWithLong:0x01ACBD7F];
