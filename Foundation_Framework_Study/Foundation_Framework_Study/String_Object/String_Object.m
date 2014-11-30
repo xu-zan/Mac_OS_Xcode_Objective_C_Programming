@@ -11,6 +11,7 @@
 #import "String_Object.h"
 
 #import <Foundation/NSString.h>
+#import <objc/objc.h>
 
 void String_Type_Object_Example(void)
 {
@@ -110,7 +111,10 @@ void String_Usage(void)
 /************************************************************************************************/
 	Str2 = @"L";
 	Str3 = @"l";
-	[mstr replaceOccurrencesOfString:Str2 withString:Str3 options:nil range:NSMakeRange(0, [mstr length])];
+	[mstr replaceOccurrencesOfString:Str2
+						  withString:Str3
+						     options:nil
+							   range:NSMakeRange(0, [mstr length])];
 	NSLog(@"%@", mstr);
 }
 
