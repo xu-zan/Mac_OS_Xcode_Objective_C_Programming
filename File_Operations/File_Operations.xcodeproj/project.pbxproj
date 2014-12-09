@@ -10,6 +10,7 @@
 		7F3095641A374D1100B482C5 /* Test_File_Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3095631A374D1100B482C5 /* Test_File_Operations.m */; };
 		7F5CAD181A32AB89005B5141 /* File_Operations_Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5CAD171A32AB89005B5141 /* File_Operations_Main.m */; };
 		7F5CAD1F1A32B38C005B5141 /* File_Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5CAD1E1A32B38C005B5141 /* File_Operations.m */; };
+		7FFE605F1A3755B800159831 /* Manage_Files.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFE605E1A3755B800159831 /* Manage_Files.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		7F5CAD171A32AB89005B5141 /* File_Operations_Main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = File_Operations_Main.m; sourceTree = "<group>"; };
 		7F5CAD1E1A32B38C005B5141 /* File_Operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File_Operations.m; sourceTree = "<group>"; };
 		7F5CAD201A32B3AF005B5141 /* File_Operations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File_Operations.h; sourceTree = "<group>"; };
+		7FFE605E1A3755B800159831 /* Manage_Files.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Manage_Files.m; path = Manage_Files/Manage_Files.m; sourceTree = "<group>"; };
+		7FFE60601A3755DA00159831 /* Manage_Files.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Manage_Files.h; path = Manage_Files/Manage_Files.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,9 @@
 		7F5CAD161A32AB89005B5141 /* File_Operations */ = {
 			isa = PBXGroup;
 			children = (
+				7FFE605D1A3754EA00159831 /* Manipulate_File_Data */,
+				7FFE605C1A3754B800159831 /* Manage_Directories */,
+				7FFE605B1A3754A400159831 /* Manage_Files */,
 				7F5CAD171A32AB89005B5141 /* File_Operations_Main.m */,
 				7F5CAD1E1A32B38C005B5141 /* File_Operations.m */,
 				7F5CAD201A32B3AF005B5141 /* File_Operations.h */,
@@ -70,6 +76,29 @@
 				7F3095651A374D4500B482C5 /* Test_File_Operations.h */,
 			);
 			path = File_Operations;
+			sourceTree = "<group>";
+		};
+		7FFE605B1A3754A400159831 /* Manage_Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FFE605E1A3755B800159831 /* Manage_Files.m */,
+				7FFE60601A3755DA00159831 /* Manage_Files.h */,
+			);
+			name = Manage_Files;
+			sourceTree = "<group>";
+		};
+		7FFE605C1A3754B800159831 /* Manage_Directories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Manage_Directories;
+			sourceTree = "<group>";
+		};
+		7FFE605D1A3754EA00159831 /* Manipulate_File_Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Manipulate_File_Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FFE605F1A3755B800159831 /* Manage_Files.m in Sources */,
 				7F5CAD181A32AB89005B5141 /* File_Operations_Main.m in Sources */,
 				7F5CAD1F1A32B38C005B5141 /* File_Operations.m in Sources */,
 				7F3095641A374D1100B482C5 /* Test_File_Operations.m in Sources */,
