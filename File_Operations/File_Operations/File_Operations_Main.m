@@ -9,12 +9,17 @@
  * Copyright(C)		2014	All rights reserved.
  *
  ***********************************************************************************************************/
+
 #import <Foundation/Foundation.h>
+
+#import "Test_File_Operations.h"
+#import "File_Operations.h"
 
 int main(int argc, const char * argv[])
 {
 	@autoreleasepool
 	{
+		General_Test_Cases();
 	
 		NSLog(@"\n");
 	}
