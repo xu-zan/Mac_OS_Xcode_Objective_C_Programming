@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F3095641A374D1100B482C5 /* Test_File_Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3095631A374D1100B482C5 /* Test_File_Operations.m */; };
 		7F5CAD181A32AB89005B5141 /* File_Operations_Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5CAD171A32AB89005B5141 /* File_Operations_Main.m */; };
 		7F5CAD1F1A32B38C005B5141 /* File_Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5CAD1E1A32B38C005B5141 /* File_Operations.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7F3095631A374D1100B482C5 /* Test_File_Operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test_File_Operations.m; sourceTree = "<group>"; };
+		7F3095651A374D4500B482C5 /* Test_File_Operations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_File_Operations.h; sourceTree = "<group>"; };
 		7F5CAD141A32AB89005B5141 /* File_Operations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = File_Operations; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5CAD171A32AB89005B5141 /* File_Operations_Main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = File_Operations_Main.m; sourceTree = "<group>"; };
 		7F5CAD1E1A32B38C005B5141 /* File_Operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File_Operations.m; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				7F5CAD171A32AB89005B5141 /* File_Operations_Main.m */,
 				7F5CAD1E1A32B38C005B5141 /* File_Operations.m */,
 				7F5CAD201A32B3AF005B5141 /* File_Operations.h */,
+				7F3095631A374D1100B482C5 /* Test_File_Operations.m */,
+				7F3095651A374D4500B482C5 /* Test_File_Operations.h */,
 			);
 			path = File_Operations;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			files = (
 				7F5CAD181A32AB89005B5141 /* File_Operations_Main.m in Sources */,
 				7F5CAD1F1A32B38C005B5141 /* File_Operations.m in Sources */,
+				7F3095641A374D1100B482C5 /* Test_File_Operations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +244,7 @@
 				7F5CAD1D1A32AB89005B5141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
