@@ -23,7 +23,6 @@
 
 		-(void) Print;
 		-(NSComparisonResult) compareName:(id) element;
-
 	@end
 
 #endif	/*  STUDENT_H  */
