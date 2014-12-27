@@ -9,3 +9,10 @@
 
 
 #import "Test_Manage_Files.h"
+#import "Manage_Files.h"
+
+
+void TestCase_File_Management(void)
+{
+	Check_File();
+}

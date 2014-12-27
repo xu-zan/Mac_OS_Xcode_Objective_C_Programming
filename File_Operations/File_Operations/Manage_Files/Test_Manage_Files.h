@@ -11,6 +11,6 @@
 #ifndef TEST_MANAGE_FILES_H
 #define TEST_MANAGE_FILES_H
 
-
+	void TestCase_File_Management(void);
 
 #endif	/*  TEST_MANAGE_FILES_H  */

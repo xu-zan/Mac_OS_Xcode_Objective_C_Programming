@@ -11,5 +11,6 @@
 #ifndef MANAGE_FILES_H
 #define MANAGE_FILES_H
 
+	int Check_File(void);
 
 #endif	/*  MANAGE_FILES_H  */
