@@ -14,4 +14,7 @@
 
 	void General_Test_Cases(void);
 
+	void Perform_TestCase_FileManagement(void);
+	void Perform_TestCase_DirectoryManagement(void);
+
 #endif	/*  TEST_FILE_OPERATIONS_H  */
