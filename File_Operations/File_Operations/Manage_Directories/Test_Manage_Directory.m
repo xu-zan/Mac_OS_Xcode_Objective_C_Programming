@@ -15,4 +15,7 @@
 void TestCase_Directory_Management(void)
 {
 	NSFileManager_2Manage_Directories();
+	
+	NSFileManager_Manipulate_Directory();
+	return;
 }

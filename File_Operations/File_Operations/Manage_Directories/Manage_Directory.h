@@ -13,4 +13,6 @@
 
 	int NSFileManager_2Manage_Directories(void);
 
+	int NSFileManager_Manipulate_Directory(void);
+
 #endif	/*  MANAGE_DIRECTORY_H  */

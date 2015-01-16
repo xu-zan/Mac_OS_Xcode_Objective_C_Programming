@@ -60,3 +60,44 @@ int NSFileManager_2Manage_Directories(void)
 	}
 	return 0;
 }
+
+
+int NSFileManager_Manipulate_Directory(void)
+{
+	NSFileManager *fm = [NSFileManager defaultManager];
+	NSString *FileName = @"ReadMe.h";
+	NSString *path = nil,
+			 *tempDir = nil,
+			 *extDir = nil,
+			 *homeDir = nil,
+			 *fullPath = nil;
+	NSString *testPath = @"~/Programming/../File_Operations/File_Operations/ReadMe.h";
+	NSArray *dirArray = nil;
+	
+	tempDir = NSTemporaryDirectory();
+	NSLog(@"當前臨時文件的路徑是： %@", tempDir);
+	
+	path = [fm currentDirectoryPath];
+	NSLog(@"當前的文件目錄是： %@", path);
+	
+	fullPath = [path stringByAppendingPathComponent:FileName];
+	NSLog(@"添加一個帶擴展名的文件 %@ 後，完整的路徑是： %@", FileName, fullPath);
+	
+	extDir = [fullPath pathExtension];
+	NSLog(@"完整路徑 %@ 的擴展名為： %@", fullPath, extDir);
+	
+	homeDir = NSHomeDirectory();
+	NSLog(@"你的用戶根路徑是： %@", homeDir);
+	
+	dirArray = [homeDir pathComponents];
+	for (path in dirArray)	// 輸出路徑的各個部分
+	{
+		NSLog(@"%@", path);
+	}
+	NSLog(@"%@", [testPath stringByStandardizingPath]);
+	
+	return 0;
+}
+
+
+
