@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F3095641A374D1100B482C5 /* Test_File_Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3095631A374D1100B482C5 /* Test_File_Operations.m */; };
 		7F5CAD181A32AB89005B5141 /* File_Operations_Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5CAD171A32AB89005B5141 /* File_Operations_Main.m */; };
 		7F5CAD1F1A32B38C005B5141 /* File_Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5CAD1E1A32B38C005B5141 /* File_Operations.m */; };
+		7F7A8B411A611A9D00656852 /* Test_Manipulate_FileData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A8B401A611A9D00656852 /* Test_Manipulate_FileData.m */; };
+		7F7A8B461A61475B00656852 /* Manage_Process.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A8B451A61475B00656852 /* Manage_Process.m */; };
+		7F7A8B481A6148B200656852 /* Test_Manage_Process.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A8B471A6148B200656852 /* Test_Manage_Process.m */; };
+		7FAC028D1A4ECD7B004138E8 /* Manage_Directory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC028C1A4ECD7B004138E8 /* Manage_Directory.m */; };
+		7FAC028F1A4EFAFD004138E8 /* Test_Manage_Directory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC028E1A4EFAFD004138E8 /* Test_Manage_Directory.m */; };
+		7FECC1361A55D11100DD07E1 /* NSData_ReadWrite_FileData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FECC1351A55D11100DD07E1 /* NSData_ReadWrite_FileData.m */; };
+		7FFE605F1A3755B800159831 /* Manage_Files.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFE605E1A3755B800159831 /* Manage_Files.m */; };
+		7FFE60631A375CE800159831 /* Test_Manage_Files.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFE60621A375CE800159831 /* Test_Manage_Files.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +33,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7F3095631A374D1100B482C5 /* Test_File_Operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test_File_Operations.m; sourceTree = "<group>"; };
+		7F3095651A374D4500B482C5 /* Test_File_Operations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_File_Operations.h; sourceTree = "<group>"; };
 		7F5CAD141A32AB89005B5141 /* File_Operations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = File_Operations; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5CAD171A32AB89005B5141 /* File_Operations_Main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = File_Operations_Main.m; sourceTree = "<group>"; };
 		7F5CAD1E1A32B38C005B5141 /* File_Operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File_Operations.m; sourceTree = "<group>"; };
 		7F5CAD201A32B3AF005B5141 /* File_Operations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File_Operations.h; sourceTree = "<group>"; };
+		7F7A8B401A611A9D00656852 /* Test_Manipulate_FileData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test_Manipulate_FileData.m; path = Manipulate_File_Data/Test_Manipulate_FileData.m; sourceTree = "<group>"; };
+		7F7A8B421A611ABF00656852 /* Test_Manipulate_FileData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Test_Manipulate_FileData.h; path = Manipulate_File_Data/Test_Manipulate_FileData.h; sourceTree = "<group>"; };
+		7F7A8B441A61474400656852 /* Manage_Process.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Manage_Process.h; path = Manage_Process/Manage_Process.h; sourceTree = "<group>"; };
+		7F7A8B451A61475B00656852 /* Manage_Process.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Manage_Process.m; path = Manage_Process/Manage_Process.m; sourceTree = "<group>"; };
+		7F7A8B471A6148B200656852 /* Test_Manage_Process.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test_Manage_Process.m; path = Manage_Process/Test_Manage_Process.m; sourceTree = "<group>"; };
+		7F7A8B491A6148CE00656852 /* Test_Manage_Process.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Test_Manage_Process.h; path = Manage_Process/Test_Manage_Process.h; sourceTree = "<group>"; };
+		7FAC028B1A4ECD46004138E8 /* Manage_Directory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Manage_Directory.h; path = Manage_Directories/Manage_Directory.h; sourceTree = "<group>"; };
+		7FAC028C1A4ECD7B004138E8 /* Manage_Directory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Manage_Directory.m; path = Manage_Directories/Manage_Directory.m; sourceTree = "<group>"; };
+		7FAC028E1A4EFAFD004138E8 /* Test_Manage_Directory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test_Manage_Directory.m; path = Manage_Directories/Test_Manage_Directory.m; sourceTree = "<group>"; };
+		7FAC02901A4EFB1B004138E8 /* Test_Manage_Directory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Test_Manage_Directory.h; path = Manage_Directories/Test_Manage_Directory.h; sourceTree = "<group>"; };
+		7FECC1341A55D0E900DD07E1 /* NSData_ReadWrite_FileData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSData_ReadWrite_FileData.h; path = Manipulate_File_Data/NSData_ReadWrite_FileData.h; sourceTree = "<group>"; };
+		7FECC1351A55D11100DD07E1 /* NSData_ReadWrite_FileData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSData_ReadWrite_FileData.m; path = Manipulate_File_Data/NSData_ReadWrite_FileData.m; sourceTree = "<group>"; };
+		7FFE605E1A3755B800159831 /* Manage_Files.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Manage_Files.m; path = Manage_Files/Manage_Files.m; sourceTree = "<group>"; };
+		7FFE60601A3755DA00159831 /* Manage_Files.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Manage_Files.h; path = Manage_Files/Manage_Files.h; sourceTree = "<group>"; };
+		7FFE60611A375CCC00159831 /* Test_Manage_Files.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Test_Manage_Files.h; path = Manage_Files/Test_Manage_Files.h; sourceTree = "<group>"; };
+		7FFE60621A375CE800159831 /* Test_Manage_Files.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test_Manage_Files.m; path = Manage_Files/Test_Manage_Files.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +87,61 @@
 		7F5CAD161A32AB89005B5141 /* File_Operations */ = {
 			isa = PBXGroup;
 			children = (
+				7F7A8B431A61466F00656852 /* Manage_Process */,
+				7FFE605D1A3754EA00159831 /* Manipulate_File_Data */,
+				7FFE605C1A3754B800159831 /* Manage_Directories */,
+				7FFE605B1A3754A400159831 /* Manage_Files */,
 				7F5CAD171A32AB89005B5141 /* File_Operations_Main.m */,
 				7F5CAD1E1A32B38C005B5141 /* File_Operations.m */,
 				7F5CAD201A32B3AF005B5141 /* File_Operations.h */,
+				7F3095631A374D1100B482C5 /* Test_File_Operations.m */,
+				7F3095651A374D4500B482C5 /* Test_File_Operations.h */,
 			);
 			path = File_Operations;
+			sourceTree = "<group>";
+		};
+		7F7A8B431A61466F00656852 /* Manage_Process */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A8B441A61474400656852 /* Manage_Process.h */,
+				7F7A8B451A61475B00656852 /* Manage_Process.m */,
+				7F7A8B471A6148B200656852 /* Test_Manage_Process.m */,
+				7F7A8B491A6148CE00656852 /* Test_Manage_Process.h */,
+			);
+			name = Manage_Process;
+			sourceTree = "<group>";
+		};
+		7FFE605B1A3754A400159831 /* Manage_Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FFE605E1A3755B800159831 /* Manage_Files.m */,
+				7FFE60601A3755DA00159831 /* Manage_Files.h */,
+				7FFE60611A375CCC00159831 /* Test_Manage_Files.h */,
+				7FFE60621A375CE800159831 /* Test_Manage_Files.m */,
+			);
+			name = Manage_Files;
+			sourceTree = "<group>";
+		};
+		7FFE605C1A3754B800159831 /* Manage_Directories */ = {
+			isa = PBXGroup;
+			children = (
+				7FAC028B1A4ECD46004138E8 /* Manage_Directory.h */,
+				7FAC028C1A4ECD7B004138E8 /* Manage_Directory.m */,
+				7FAC028E1A4EFAFD004138E8 /* Test_Manage_Directory.m */,
+				7FAC02901A4EFB1B004138E8 /* Test_Manage_Directory.h */,
+			);
+			name = Manage_Directories;
+			sourceTree = "<group>";
+		};
+		7FFE605D1A3754EA00159831 /* Manipulate_File_Data */ = {
+			isa = PBXGroup;
+			children = (
+				7FECC1341A55D0E900DD07E1 /* NSData_ReadWrite_FileData.h */,
+				7FECC1351A55D11100DD07E1 /* NSData_ReadWrite_FileData.m */,
+				7F7A8B401A611A9D00656852 /* Test_Manipulate_FileData.m */,
+				7F7A8B421A611ABF00656852 /* Test_Manipulate_FileData.h */,
+			);
+			name = Manipulate_File_Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +200,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FECC1361A55D11100DD07E1 /* NSData_ReadWrite_FileData.m in Sources */,
+				7FAC028D1A4ECD7B004138E8 /* Manage_Directory.m in Sources */,
+				7FFE60631A375CE800159831 /* Test_Manage_Files.m in Sources */,
+				7F7A8B411A611A9D00656852 /* Test_Manipulate_FileData.m in Sources */,
+				7FFE605F1A3755B800159831 /* Manage_Files.m in Sources */,
+				7FAC028F1A4EFAFD004138E8 /* Test_Manage_Directory.m in Sources */,
+				7F7A8B481A6148B200656852 /* Test_Manage_Process.m in Sources */,
+				7F7A8B461A61475B00656852 /* Manage_Process.m in Sources */,
 				7F5CAD181A32AB89005B5141 /* File_Operations_Main.m in Sources */,
 				7F5CAD1F1A32B38C005B5141 /* File_Operations.m in Sources */,
+				7F3095641A374D1100B482C5 /* Test_File_Operations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +324,7 @@
 				7F5CAD1D1A32AB89005B5141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
