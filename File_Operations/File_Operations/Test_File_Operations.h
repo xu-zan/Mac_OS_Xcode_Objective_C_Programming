@@ -16,5 +16,7 @@
 
 	void Perform_TestCase_FileManagement(void);
 	void Perform_TestCase_DirectoryManagement(void);
+	void Perform_TestCase_FileDataReadWrite(void);
+	void Perform_TestCase_GetProcessInfo(void);
 
 #endif	/*  TEST_FILE_OPERATIONS_H  */
