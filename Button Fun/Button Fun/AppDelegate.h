@@ -12,11 +12,16 @@
 
 	#import <UIKit/UIKit.h>
 
+	#import "ViewController.h"
 	
 
 	@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 		@property (strong, nonatomic) UIWindow *window;
+		
+		#if defined (LOAD_WINDOW_CUSTOMIZATION_SETTINGS)
+			@property (strong, nonatomic) ViewController *myViewController;
+		#endif
 
 	@end
 
