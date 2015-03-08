@@ -32,9 +32,21 @@
 
 	- (IBAction)buttonPressed:(UIButton *)sender
 	{
+	#if 0
 		NSString *title = [sender titleForState:UIControlStateNormal];
 		NSString *plainText = [NSString stringWithFormat:@"%@ button pressed", title];
 		_statusLabel.text = plainText;
+	#else
+		NSString *title = [sender titleForState:UIControlStateNormal];
+		NSString *plainText = [NSString stringWithFormat:@"%@ button pressed.", title];
+		NSMutableAttributedString *styledText = [[NSMutableAttributedString alloc] initWithString:plainText attributes:nil];
+		
+		NSDictionary *attributes = @{ NSFontAttributeName : [UIFont boldSystemFontOfSize:_statusLabel.font.pointSize] };
+		NSRange nameRange = [plainText rangeOfString:title];
+		
+		[styledText setAttributes:attributes range:nameRange];
+		_statusLabel.attributedText = styledText;
+	#endif
 	}
 
 @end
